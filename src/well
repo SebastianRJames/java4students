@@ -1,0 +1,54 @@
+public class House {
+String house;
+int score;
+public House(String hse,int scr) {
+house=hse;
+score = scr;
+}
+
+}
+====================
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+
+public class CSV {
+House[] houses = new House[30];
+String file;
+public CSV(String filePath) throws Exception {
+file = filePath;
+BufferedReader csvReader = new BufferedReader(new FileReader(filePath));
+String row;
+int count = 0;
+while ((row= csvReader.readLine())!= null) {
+String[] data = row.split(",");
+houses[count] = new House(data[0], Integer.parseInt(data[1]));
+count++;
+}
+csvReader.close();
+writeCSV();
+}
+public void writeCSV() throws Exception {
+FileWriter write = new FileWriter(file);
+for(int i = 0;i<4;i++) {
+write.append(houses[i].house+","+houses[i].score+"\n");
+}
+write.flush();
+write.close();
+}
+
+}
+====================
+
+public class controller {
+CSV file;
+public controller() throws Exception{
+file = new CSV("houses.csv");
+for(int i = 0;i<4;i++) {
+System.out.println(file.houses[i].house + " "+ file.houses[i].score);
+}
+}
+}
+
