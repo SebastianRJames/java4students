@@ -10,7 +10,10 @@ price
   */
 public class VariablesExercise {
     public static void main(String[] args) {
-
+    Scanner input = new Scanner(System.in);
+    System.out.println("How many hot dogs would you like? ");
+    int num = input.nextInt();
+    System.out.println("That will cost £"+num*2.95);
     }
 
 }

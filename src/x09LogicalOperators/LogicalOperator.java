@@ -2,9 +2,18 @@ package x09LogicalOperators;
 
 public class LogicalOperator {
     public static void main(String[] args) {
+            String Team = "AFC";
+            int place = 1;
 
+            if(Team== "AFC" && place == 1){ // && = combine two boolean expressions and return true only if both expressions are true.
+                System.out.println("AND - Both are true");
+            }else if (Team== "AFC" || place == 1){ // || = logical OR operator - returns true if either one or both of the criteria is true, false if both are false
+                System.out.println("OR - At least one is true");
+            }
         extension();
-    }
+        }
+
+
 
 
     /*
