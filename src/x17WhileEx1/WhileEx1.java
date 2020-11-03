@@ -9,7 +9,11 @@ package x17WhileEx1;
    */
 public class WhileEx1 {
     public static void main(String[] args) {
-
+        int x = 0;
+        for(int x = 0;x==144;x+=12){
+            System.out.println(x);
+        }
+        }
     }
 
-}
+

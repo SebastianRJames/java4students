@@ -4,6 +4,7 @@ package x12OnlyPositiveEx;
 import java.util.Scanner;
 
 public class OnlyPositive {
+    // this code is really if an entered number is even or odd.
     /*
 Task
 Enter the code to reject a number if it is negative
