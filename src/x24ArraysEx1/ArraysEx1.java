@@ -8,8 +8,17 @@ public class ArraysEx1 {
     by 15 of the letters of your name
      */
     public static void main(String[] args) {
+            //int[]array = new int[9];
+            String [] arrName = {"s","e","b","a","s","t","i","a","n"};
+            System.out.println(arrName.length); // .length uses human numbers 1-9, not 0-8
+            // System.out.print(arrName[0]); System.out.print(arrName[1]);System.out.print(arrName[2]); // this works but doesn't use loops
 
     }
 
 
 }
+
+// us printf to make a box with the characters =
+//seb
+//ast
+//ian

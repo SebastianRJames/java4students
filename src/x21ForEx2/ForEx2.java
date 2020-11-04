@@ -15,3 +15,4 @@ public class ForEx2 {
 
     }
 }
+// nothing is output idk why there are no errors? while loop works though?
