@@ -12,6 +12,6 @@ public class ArraysEx2 {
         MrMi
      */
     public static void main(String[] args) {
-
+// sorry i tried idk
     }
 }

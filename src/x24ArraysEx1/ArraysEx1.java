@@ -12,10 +12,10 @@ public class ArraysEx1 {
             String [] arrName = {"s","e","b","a","s","t","i","a","n"};
             System.out.println(arrName.length); // .length uses human numbers 1-9, not 0-8
             // System.out.print(arrName[0]); System.out.print(arrName[1]);System.out.print(arrName[2]); // this works but doesn't use loops
-
+            //system.out.printf()
     }
 
-
+// sorry i have no idea
 }
 
 // us printf to make a box with the characters =
