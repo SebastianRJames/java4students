@@ -48,11 +48,12 @@ public class ArraysEx1 {
         int countingVar = 0; // aka x
 
         for(int y=0;y<15;y++){ // this loops 15 times (prints 15 tiems)
-        for(int x =0;x<15;x++){ // defines x, x smaller than length add 1
-            System.out.print(nameArray[countingVar]);// print character of array-countingvar
-            //System.out.print(nameArray[x]);
-            countingVar = (countingVar+1) % lengthVar; // increments countingVar, prevents going above length var
-        }System.out.println(); // new line
+            for(int x =0;x<15;x++){ // defines x, x smaller than length add 1
+                System.out.print(nameArray[countingVar]);// print character of array-countingvar
+                //System.out.print(nameArray[x]);
+                countingVar = (countingVar+1) % lengthVar; // increments countingVar, prevents going above length var
+            }
+            System.out.println(); // new line
         }
 
 
