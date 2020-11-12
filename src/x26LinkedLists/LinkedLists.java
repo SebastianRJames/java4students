@@ -17,21 +17,22 @@ public class LinkedLists {
     Using the push command, add Sutton and the
     4 girls houses to the linked list. Then Demonstrate
     you know how pop works
-
-
-
-
      */
-
-
-
-
-
-
-
-
-
     private static void extension(){
+        houses.push("Sutton");
+        houses.push("Gosden");
+        houses.push("Haygate");
+        houses.push("Park"); // adds to the list
+        System.out.println(houses);
+        houses.pop();
+        System.out.println(houses); // pop removes the first thing in the list
+
+
+
+
+
+
+
 
 
     }
