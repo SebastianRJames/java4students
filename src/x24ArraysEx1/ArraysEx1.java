@@ -22,24 +22,37 @@ public class ArraysEx1 {
 //
 //            }
         //attempt 3
-        char nameArray [] = {'s','e','b','a','s','t','i','a','n'};
-        int lengthVar = nameArray.length; // aka size of array = 9
-        // int countingVar = 0; // aka x
-        int i = 0;
+        //String [] nameArray = {"s","e","b","a","s","t","i","a","n"};
+        //int lengthVar = nameArray.length; // aka size of array = 9, lengthVar
+        //int countingVar = 0; // aka x
+        //int i = 0;
         //char result = lengthVar.
 
-        for(int countingVar = 0; countingVar<lengthVar;countingVar++){ // countingVar = 0, until counting is smaller than length, add one
-            System.out.println("\n"); // returns line
-            for(countingVar = countingVar; countingVar<7; countingVar++){ // prints how many times you want
-                System.out.println("countingVar"+countingVar); // print counting test
-                if(countingVar>=lengthVar){ // if count is > length - if inner loop is still counting
-                    countingVar = countingVar-lengthVar;  // reset counting
-                    System.out.print(countingVar); // should == 0
-                }
+        //for(int y = 0; y<=lengthVar;y++){ //
+          //  System.out.println(""); // returns line
+            //for(countingVar = countingVar; countingVar==lengthVar; countingVar++){ // prints how many times you want
+              //  System.out.println("countingVar"+countingVar); // print counting test
+                //if(countingVar>=lengthVar){ // if count is > length - if inner loop is still counting
+                  //  countingVar = countingVar-lengthVar;  // reset counting
+                    //System.out.print(countingVar); // should == 0
+                //}
                 //charAt =
                 //System.out.print(nameArray.charAt(countingVar));
-            }
-            System.out.println("\n"); // returns line
+            //}
+            //System.out.println("\n"); // returns line
+        //}
+
+// ATTEMPT #4
+        String [] nameArray = {"s","e","b","a","s","t","i","a","n"};
+        int lengthVar = nameArray.length; // aka size of array = 9, lengthVar
+        int countingVar = 0; // aka x
+
+        for(int y=0;y<15;y++){ // this loops 15 times (prints 15 tiems)
+        for(int x =0;x<15;x++){ // defines x, x smaller than length add 1
+            System.out.print(nameArray[countingVar]);// print character of array-countingvar
+            //System.out.print(nameArray[x]);
+            countingVar = (countingVar+1) % lengthVar; // increments countingVar, prevents going above length var
+        }System.out.println(); // new line
         }
 
 
