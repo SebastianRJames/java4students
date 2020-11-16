@@ -1,7 +1,7 @@
 package x29Parameter;
 public class Parameters {
     public static void main(String[] args) {
-        para(47," Ginger Headed Sailors"); // paragraph will print anything inside
+        para(47," Ginger Headed Sailors"); // defining parameters
     }
 
     private static void para(int num, String sentence) { // function with parameters - para(num,sentence)
@@ -13,16 +13,21 @@ public class Parameters {
     add, multiply and subtract x and y
      */
 
-    private static void extension() {
-        // creating x and y
-        int x = 3;
-        int y = 5;
-
-        // add
-        private static void add(){
-
-        }
-
-
+    public static void nums() {
+        para(3,5);  // parameters
     }
+    private static void para(int x,int y){ // defining x and y as 3 and 5
+    add();
+    //subtract();
+    //multiply();
+    }
+
+    private static void add(){
+        System.out.print("add runs");
+    }
+
+
+
+
+
 }
