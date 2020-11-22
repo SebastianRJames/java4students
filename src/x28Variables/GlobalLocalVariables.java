@@ -15,7 +15,7 @@ public class GlobalLocalVariables {
     Task
     Summarise the difference between local and global variables below
 
-    global can be called anywhere in the script but if there is a private variable in a function with the same name it willuse the private variable.
+    global can be called anywhere in the script but if there is a private variable in a function with the same name it will use the private variable.
      */
 
     private static void extension(){
