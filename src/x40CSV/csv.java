@@ -22,5 +22,9 @@ public class csv {
 /*
 Define a constructor
 
+a subroutine used to create an object
+
 Define the term throws in Java
+
+is used to create a custom error?
  */
